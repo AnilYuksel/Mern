@@ -1,0 +1,275 @@
+#root{
+  background-color: #01417e;
+}
+
+/* Left Aside Nav  */
+
+#nav {
+  position: fixed;
+  height: 95vh;
+  color: white;
+}
+
+#nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#nav li {
+  margin-top: 1rem;
+}
+
+#nav a {
+  text-decoration: none;
+  font-size: large;
+  color: white;
+}
+
+#nav a:hover {
+  border-bottom: 2px solid;
+}
+
+#nav h1 {
+  font-size: 2rem !important;
+}
+
+#nav span {
+  width: 150px !important;
+  font-size: small;
+  text-align: center;
+}
+
+
+#search {
+  font-size: small;
+  padding: 5px;
+  background-color: #e7e7e7;
+
+}
+
+
+/* Entries Middle */
+
+#entries {
+min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Card Details */
+
+#card-body h3 {
+  font-family: "Lora", Arial, serif;
+  color: #0455a1;
+}
+
+#card-body p {
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.8;
+  font-weight: 400;
+  text-align: justify;
+}
+
+#card-body a {
+  color: #0455a1;
+}
+
+#card-body button {
+  font-size: small;
+  background-color: #0455a1;
+  color: white;
+}
+#card-body button:hover {
+  background-color: #012649;
+  color: white;
+}
+
+#date {
+  margin-left: 5px;
+}
+#date-logo {
+  font-size: 20px;
+}
+
+#image-cover {
+  width: 90%;
+  margin-left: 12px;
+}
+
+#card-image {
+  padding: 1px;
+  width: 100%;
+  border:1px solid #0455a1;
+  border-radius: 2%;
+}
+
+#card-content {
+  margin-right: 24px;
+}
+
+.divider {
+  color: #0455a1;
+}
+
+/* Nav-Up */
+
+#nav-up {
+  background-color: #012649;
+  padding: 30px 150px 30px 150px;
+}
+
+#nav-up h1{
+  color: white;
+  margin: 0;
+}
+
+#nav-up a {
+  color: white;
+  text-decoration: none;
+}
+#nav-up a:hover {
+  border-bottom: 2px solid white;
+}
+
+
+/* Update Page */
+
+#update-page {
+  height: 100vh;
+}
+
+/* Auth Page */
+
+#auth-page{
+  height: 100vh;
+}
+
+#auth-page-container{
+  width: 30%;
+}
+
+/* Create Page */
+
+#create-page {
+  height: 100vh;
+}
+
+/* Forms */
+
+#form {
+  color: white;
+}
+#form button{
+  background-color: white;
+  color: #012649;
+  font-weight: bold;
+}
+#form button:hover{
+  background-color:#012649 ;
+  color: white;
+}
+
+#form small {
+  color: white;
+}
+
+/* Entry Detail Page */
+
+
+#entry-detail {
+  min-height: 100vh;
+  background-color: white;
+}
+
+#detail-image-div {
+  text-align: center;
+}
+
+#detail-header {
+  color: #0455a1;
+  font-family: "Lora", Arial, serif;
+}
+
+#detail-image{
+  width: 75%;
+  border-radius: 2%;
+}
+
+#detail-paragraph{
+  text-align: justify;
+}
+
+/* Contact Page */
+
+#contact-page {
+  height: 100vh;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 992px) {
+  #left-aside {
+    padding: 0 !important;
+  }
+
+  #nav a {
+    font-size: medium;
+  }
+
+  #nav h1 {
+    font-size: medium !important;
+  }
+  #nav p {
+    display: none;
+  }
+
+  #nav span {
+    display: none;
+  }
+
+  #nav-up h1 {
+    font-size: large;
+  }
+  
+  #auth-page-container{
+    width: 40%;
+  }
+ #search-div{
+   width: 40%;
+ }
+}
+
+@media only screen and (min-width: 993px) {
+  #logo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #nav{
+    padding: 3px;
+  }
+
+  #nav h1 {
+    font-size: small !important;
+  }
+
+  #nav-up h1 {
+    font-size: small;
+  }
+  #nav-up a {
+    font-size: small;
+  }
+
+  #auth-page-container{
+    width: 50%;
+  }
+
+  #search-div{
+    width: 45%;
+  }
+
+  #search {
+    font-size: x-small;
+  }
+}
